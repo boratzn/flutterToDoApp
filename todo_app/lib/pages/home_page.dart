@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                     child: TaskItem(task: _oAnkiListeElemani));
               }))
           : Center(
-              child: Text('no_data').tr(),
+              child: const Text('no_data').tr(),
             ),
     );
   }
